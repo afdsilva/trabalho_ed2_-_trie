@@ -9,7 +9,7 @@ DATA = 04.02.2013
 TRABALHO = trabalho_ed2_trie
 EXECUTABLE = trie
 BASE_FILENAME = $(TRABALHO)\[$(DATA)\].$(REVISION)
-REVISION=1
+REVISION=2
 CFLAGS =-std=c++0x -g -c -lm
 
 all: lib_trie.o principal_trie.cpp

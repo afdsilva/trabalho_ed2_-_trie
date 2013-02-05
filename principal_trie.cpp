@@ -9,14 +9,22 @@ using namespace std;
 #include "lib_trie.h"
 
 int main(int argc, char * argv[]) {
+	Arvore * nArvore;
 	
-	char * palavra = argv[1];
 	if (argc > 1) {
 
-		Arvore * nArvore = Arvore::Palindromo(palavra);
+		char * palavra = argv[1];
+		
+		nArvore = Arvore::Palindromo(palavra);
 		
 		nArvore->Mostra();
 
+	} else {
+		string entrada;
+		cin >> entrada;
+		nArvore = Arvore::Palindromo(entrada);
+		
+		nArvore->Mostra();	 
 	}
 
 	return 0;

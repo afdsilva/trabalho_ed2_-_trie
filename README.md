@@ -13,8 +13,9 @@ Compilacao:
    make package (gera pacote)
 
 Execucao
-   ./trie <string>
-
+   ./trie <string_por_linha_de_comando>
+   ./trie 
+      <entrada_padrao>
 
 Bugs:
   (corrigido) Nao remove os nodos antigos da arvore de palindromos quando existe mais de um menor ex: GGG ACA, depois quando for remover ele remove apenas o ultimo que foi pesquisado precisaria de um historico, vou tentar fazer em meia hora mas caso nao seja possivel, entregarei outra revisao mais tarde se for permitido;
